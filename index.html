@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chukwuemeka Emmanuel Ekine | Senior Software Engineer</title>
+    <meta name="description" content="Portfolio of Chukwuemeka Emmanuel Ekine, a Senior Software Engineer specializing in scalable web and mobile architectures." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              charcoal: '#1a1a1a',
+              offwhite: '#f9f9f9',
+              dark: {
+                bg: '#0f172a', // Slate 900
+                card: '#1e293b', // Slate 800
+                text: '#f1f5f9', // Slate 100
+                muted: '#94a3b8', // Slate 400
+              },
+              primary: {
+                DEFAULT: '#2563eb', // Blue 600
+                dark: '#60a5fa',    // Blue 400
+                hover: '#1d4ed8',   // Blue 700
+              },
+              secondary: {
+                DEFAULT: '#10b981', // Emerald 500
+                dark: '#34d399',    // Emerald 400
+              },
+              tertiary: {
+                DEFAULT: '#8b5cf6', // Violet 500
+                dark: '#a78bfa',    // Violet 400
+              }
+            },
+            animation: {
+              'blob': 'blob 7s infinite',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      html {
+        scroll-padding-top: 100px; /* Ensures sticky header doesn't cover content */
+      }
+      /* Custom Scrollbar for Webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #475569; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8; 
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #64748b; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white dark:bg-dark-bg text-gray-900 dark:text-dark-text transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
