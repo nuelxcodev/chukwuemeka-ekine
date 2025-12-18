@@ -62,7 +62,6 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleTheme }) => {
           className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white group"
         >
           {'< CE />'}
-          <span className="bg-gradient-to-r from-primary to-secondary inline-block w-2 h-2 rounded-full ml-1 mb-1 opacity-100 animate-pulse"></span>
         </a>
 
         <div className="flex items-center gap-6">
