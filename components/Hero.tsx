@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.4 }}
             className="text-lg md:text-xl text-gray-600 dark:text-dark-muted leading-relaxed mb-8 max-w-lg font-light"
           >
-            I am <strong className="text-gray-900 dark:text-white font-semibold">Chukwuemeka Ekine</strong>, a Senior Software Engineer crafting high-performance web and mobile applications with modern architectures.
+            I am <strong className="text-gray-900 dark:text-white font-semibold">Chukwuemeka Ekine</strong>, a junior Software Engineer crafting high-performance web and mobile applications with modern architectures.
           </motion.p>
 
           <motion.div 
