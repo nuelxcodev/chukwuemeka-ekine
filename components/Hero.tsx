@@ -118,7 +118,7 @@ const Hero: React.FC = () => {
 
                   {/* Code Area */}
                   <div className="p-6 font-mono text-sm leading-relaxed overflow-hidden">
-                      <div className="text-gray-400 mb-2">// Initializing Senior Developer Profile</div>
+                      <div className="text-gray-400 mb-2">// Initializing junior Developer Profile</div>
                       
                       <div className="text-purple-400">const <span className="text-yellow-300">Engineer</span> <span className="text-white">=</span> <span className="text-blue-300">{`{`}</span></div>
                       
