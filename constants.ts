@@ -3,7 +3,7 @@ import { Linkedin, Mail, Phone, Code, Smartphone, Database, Layers, Search, PenT
 
 export const PERSONAL_INFO = {
   name: "Chukwuemeka Emmanuel Ekine",
-  role: "Senior Software Engineer",
+  role: "junior Software Engineer",
   location: "Lagos, Nigeria",
   phone: "+234 903 912 4772",
   email: "chukwuemekacodev@gmail.com",
