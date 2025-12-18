@@ -127,7 +127,7 @@ const Hero: React.FC = () => {
                       </div>
                       
                       <div className="pl-4">
-                        <span className="text-blue-400">role</span><span className="text-white">:</span> <span className="text-green-400">'Senior Software Engineer'</span><span className="text-white">,</span>
+                        <span className="text-blue-400">role</span><span className="text-white">:</span> <span className="text-green-400">'junior Software Engineer'</span><span className="text-white">,</span>
                       </div>
                       
                       <div className="pl-4">
