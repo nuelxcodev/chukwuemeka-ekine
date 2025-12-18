@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
               View My Work
             </a>
             <a 
-              href="./assets/Chukwuemeka_Ekine_CV.pdf"
+              href="./Chukwuemeka_Ekine_CV.pdf"
               download="Chukwuemeka_Ekine_CV.pdf"
               className="inline-flex justify-center items-center gap-2 px-8 py-3.5 border border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white font-medium hover:border-primary dark:hover:border-primary hover:text-primary dark:hover:text-primary transition-colors duration-300 rounded-lg group"
             >
