@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   location: "Lagos, Nigeria",
   phone: "+234 903 912 4772",
   email: "chukwuemekacodev@gmail.com",
-  summary: "Results-driven Senior Software Engineer with over 4 years of experience architecting and delivering high-performance web and mobile solutions. I specialize in the full software development lifecycle—from conceptual design to deployment—leveraging modern JavaScript ecosystems (React, Node.js, Next.js) to solve complex business challenges. Proven track record of optimizing application performance, leading technical initiatives, and building scalable, user-centric products.",
+  summary: "Results-driven junior Software Engineer with over 4 years of experience architecting and delivering high-performance web and mobile solutions. I specialize in the full software development lifecycle—from conceptual design to deployment—leveraging modern JavaScript ecosystems (React, Node.js, Next.js) to solve complex business challenges. Proven track record of optimizing application performance, leading technical initiatives, and building scalable, user-centric products.",
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
