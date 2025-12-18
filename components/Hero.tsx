@@ -93,7 +93,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.4, duration: 1 }}
-          className="order-1 md:order-2 flex justify-center md:justify-end relative perspective-1000"
+          className="mt-[20px] order-1 md:order-2 flex justify-center md:justify-end relative perspective-1000"
         >
            {/* Decorative Glow */}
            <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-tertiary/30 rounded-full blur-[80px] transform scale-75"></div>
