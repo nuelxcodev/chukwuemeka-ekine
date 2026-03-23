@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
 
 const InteractiveProjectCard = ({ project, index }: { project: Project, index: number }) => {
     const [activeTab, setActiveTab] = useState<'overview' | 'features' | 'tech'>('overview');
-
+const Icon = project.icon;
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -52,15 +52,19 @@ const InteractiveProjectCard = ({ project, index }: { project: Project, index: n
             className="flex flex-col bg-white dark:bg-dark-card border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:border-primary/20 dark:hover:border-primary/20 transition-all duration-300 group h-full"
         >
             {/* Image Section */}
-            <div className="w-full relative overflow-hidden h-56 sm:h-64 shrink-0">
-                 <div className="absolute inset-0 bg-gray-200 dark:bg-gray-800">
-                     <div
-                        
-                        className="w-full h-full bg-blue-800"
-                     >{project.icon}
+            
+
+<div className="w-full relative overflow-hidden h-56 sm:h-64 shrink-0">
+  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-800">
+    
+    {/* ICON CONTAINER */}
+    <div className="w-full h-full bg-blue-800 flex items-center justify-center">
+      <Icon size={64} className="text-white" strokeWidth={1.5} />
+    </div>
+
+    <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
+  </div>
 </div>
-                     <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
-                 </div>
                  
                  {/* Floating Badge */}
                  <div className="absolute top-4 left-4 flex flex-wrap gap-2">
