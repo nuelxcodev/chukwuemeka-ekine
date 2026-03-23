@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
 
 const InteractiveProjectCard = ({ project, index }: { project: Project, index: number }) => {
     const [activeTab, setActiveTab] = useState<'overview' | 'features' | 'tech'>('overview');
-const Icon = project.icon;
+    const Icon = project.icon;
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
