@@ -54,10 +54,9 @@ const InteractiveProjectCard = ({ project, index }: { project: Project, index: n
             {/* Image Section */}
             <div className="w-full relative overflow-hidden h-56 sm:h-64 shrink-0">
                  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-800">
-                     <img
-                        src={project.image}
-                        alt={project.title}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                     <div
+                        
+                        className="w-full h-full bg-blue-800"
                      />
                      <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
                  </div>
