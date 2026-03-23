@@ -1,5 +1,11 @@
 import { Project, Experience, SkillCategory, SocialLink } from './types';
 import { Linkedin, Mail, Phone, Code, Smartphone, Database, Layers, Search, PenTool, Cpu, Rocket } from 'lucide-react';
+import {
+  Truck,
+  Film,
+  ShoppingCart,
+  BarChart3
+} from "lucide-react";
 
 export const PERSONAL_INFO = {
   name: "Chukwuemeka Emmanuel Ekine",
@@ -123,115 +129,68 @@ export const WORK_PROCESS = [
   }
 ];
 
-export const EXPERIENCE: Experience[] = [
-  {
-    company: "Carrot Suit",
-    role: "React Native Developer",
-    period: "September 2024 – March 2025",
-    location: "Lagos, Nigeria",
-    details: [
-      "Engineered scalable, cross-platform mobile applications using React Native, delivering a seamless native-like experience on both iOS and Android.",
-      "Architected reusable component libraries and design systems that reduced development time by 30%.",
-      "Collaborated closely with cross-functional teams to integrate complex backend services and optimize app performance, achieving a 99.9% crash-free user session rate."
-    ]
-  },
-  {
-    company: "Kingdom Greatness International Church (KGIC)",
-    role: "Software Engineer",
-    period: "March 2024 – November 2024",
-    location: "Lagos, Nigeria",
-    details: [
-      "Spearheaded the development of a comprehensive desktop data analytics platform using Electron.js and Chart.js for real-time organizational reporting.",
-      "Designed and implemented secure RESTful API architectures using Node.js to handle sensitive membership and financial data.",
-      "Created interactive data visualization dashboards that enhanced executive decision-making capabilities by providing actionable insights."
-    ]
-  },
-  {
-    company: "Ochefi Technologies",
-    role: "Associate Software Engineer",
-    period: "June 2023 – February 2024",
-    location: "Lagos, Nigeria",
-    details: [
-      "Developed robust full-stack web applications utilizing the MERN stack (MongoDB, Express, React, Node.js), ensuring high availability and scalability.",
-      "Optimized database queries and API response times, resulting in significant performance improvements for data-heavy applications.",
-      "Championed code quality initiatives through rigorous peer reviews and the implementation of clean code best practices."
-    ]
-  },
-  {
-    company: "Naving Technologies",
-    role: "Software Engineer Intern",
-    period: "March 2021 – April 2022",
-    location: "Lagos, Nigeria",
-    details: [
-      "Contributed to the development of dynamic web and mobile solutions using React.js and React Native in an agile environment.",
-      "Assisted in the design and integration of RESTful APIs, facilitating seamless communication between client and server architectures.",
-      "Gained deep hands-on experience in the software development lifecycle, from requirement gathering to testing and deployment."
-    ]
-  }
-];
-
 export const PROJECTS: Project[] = [
   {
     title: "Airmetriz Logistics",
-    description: "A comprehensive enterprise logistics and courier service solution engineered to streamline shipping operations. This platform facilitates real-time shipment tracking, automated delivery scheduling, and a responsive customer portal for seamless order management.",
+    icon: Truck,
+    description: "A comprehensive enterprise logistics and courier service solution engineered to streamline shipping operations...",
     technologies: ["Next.js", "React", "Tailwind CSS", "Redux Toolkit", "Google Maps API", "Node.js"],
     link: "http://airmetriz.vercel.app",
     type: "Web",
     year: "2023",
     role: "Lead Frontend Engineer",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200",
     features: [
-        "Implemented real-time shipment tracking using Google Maps API.",
-        "Built a dynamic pricing calculator based on weight, distance, and delivery speed.",
-        "Designed a responsive user dashboard for order history and profile management.",
-        "Optimized page load speeds by 40% using Next.js Server Side Rendering (SSR)."
+      "Implemented real-time shipment tracking using Google Maps API.",
+      "Built a dynamic pricing calculator...",
+      "Designed a responsive user dashboard...",
+      "Optimized page load speeds by 40%..."
     ]
   },
   {
     title: "Nufy Movies",
-    description: "A feature-rich movie discovery platform that aggregates trending content, trailers, and production metadata. The application features a secure authentication system, personalized watchlists, and an optimized search engine for a premium user experience.",
+    icon: Film,
+    description: "A feature-rich movie discovery platform...",
     technologies: ["React.js", "Express.js", "MongoDB", "Node.js", "JWT", "TMDB API"],
     link: "https://nufy-movies.onrender.com",
     type: "Web",
     year: "2023",
     role: "Full Stack Developer",
-    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=1200",
     features: [
-        "Developed a secure JWT-based authentication system for user accounts.",
-        "Integrated the TMDB API to fetch and display real-time movie data.",
-        "Implemented a 'Favorites' system allowing users to persist their watchlist.",
-        "Designed a custom video player modal for seamless trailer playback."
+      "Developed a secure JWT-based authentication system...",
+      "Integrated the TMDB API...",
+      "Implemented a 'Favorites' system...",
+      "Designed a custom video player modal..."
     ]
   },
   {
     title: "Nuelmart E-Commerce",
-    description: "A fully responsive, high-performance e-commerce application designed with a mobile-first approach. The platform handles complex cart logic, secure payment gateway integration, and real-time inventory management to support high-volume transactions.",
+    icon: ShoppingCart,
+    description: "A fully responsive, high-performance e-commerce application...",
     technologies: ["React.js", "Node.js", "Context API", "CSS Modules", "Stripe API"],
     link: "https://nuelmart.netlify.app",
     type: "Web",
     year: "2022",
     role: "Frontend Architect",
-    image: "https://images.unsplash.com/photo-1472851294608-415522f96319?auto=format&fit=crop&q=80&w=1200",
     features: [
-        "Built a persistent shopping cart using React Context API and LocalStorage.",
-        "Integrated secure payment gateways for safe and reliable transactions.",
-        "Implemented advanced product filtering and sorting algorithms.",
-        "Created a mobile-responsive layout ensuring 100% usability across devices."
+      "Built a persistent shopping cart...",
+      "Integrated secure payment gateways...",
+      "Implemented advanced product filtering...",
+      "Created a mobile-responsive layout..."
     ]
   },
   {
     title: "Enterprise Data Suite",
-    description: "A robust desktop application engineered for organizational management at KGIC. It streamlines membership tracking, financial reporting, and data analytics with exportable reports, functioning completely offline for reliability.",
+    icon: BarChart3,
+    description: "A robust desktop application engineered for organizational management...",
     technologies: ["Electron.js", "React.js", "Chart.js", "SQLite", "Node.js"],
     type: "Desktop",
     year: "2024",
     role: "Sole Developer",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
     features: [
-        "Architected an offline-first desktop application using Electron.js.",
-        "Visualized complex financial data using interactive Chart.js dashboards.",
-        "Implemented automated PDF and Excel report generation features.",
-        "Designed a secure local database schema using SQLite for data integrity."
+      "Architected an offline-first desktop application...",
+      "Visualized complex financial data...",
+      "Implemented automated PDF and Excel reports...",
+      "Designed a secure local database schema..."
     ]
   }
 ];
