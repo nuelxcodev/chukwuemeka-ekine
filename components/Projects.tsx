@@ -57,7 +57,8 @@ const InteractiveProjectCard = ({ project, index }: { project: Project, index: n
                      <div
                         
                         className="w-full h-full bg-blue-800"
-                     />
+                     >{project.icon}
+</div>
                      <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
                  </div>
                  
